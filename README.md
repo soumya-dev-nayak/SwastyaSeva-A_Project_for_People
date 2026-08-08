@@ -1,1 +1,1 @@
-# SwastyaSeva---A-project-for-People
+# SwastyaSeva - A Project for People 
