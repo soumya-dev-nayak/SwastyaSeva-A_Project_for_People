@@ -1,4 +1,4 @@
-# MediCore HMS — Backend API
+# SwastyaSeva HMS — Backend API
 
 Complete Node.js + Express + MongoDB backend for the MediCore Hospital Management System.
 
@@ -17,7 +17,7 @@ Complete Node.js + Express + MongoDB backend for the MediCore Hospital Managemen
 ### 1. Backend
 
 ```bash
-cd medicore-backend
+cd SwastyaSeva-backend
 npm install
 cp .env.example .env
 # Edit .env if needed (default values work for local dev)
@@ -30,7 +30,7 @@ npm start           # Start server without auto-reload
 ### 2. Frontend
 
 ```bash
-cd hospital-hms
+cd hospital-api
 npm install
 npm start           # Start React app on port 3000
 ```
