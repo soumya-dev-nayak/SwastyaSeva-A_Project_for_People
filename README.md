@@ -1252,30 +1252,6 @@ B.Tech Electronics & Communication Engineering | Silicon University (Graduating 
 - Clinical validation and performance analysis
 - User interface feedback and refinement
 
-### Project Advisor
-**Dr. Sudhansu Mohan Biswal**  
-Associate Professor, Department of Electronics and Communication Engineering  
-Silicon University, Bhubaneswar
-
-**Dr. Sudhansu Kumar Pati**  
-Head of Department, Electronics and Communication Engineering  
-Silicon University, Bhubaneswar
-
----
-
-## Acknowledgments
-
-We extend our heartfelt gratitude to:
-
-- **Dr. Sudhansu Mohan Biswal** for his invaluable guidance, technical expertise, and encouragement throughout the project lifecycle
-- **Dr. Sudhansu Kumar Pati** (H.O.D.) for providing laboratory facilities and resources
-- The **Silicon University ECE Department** for supporting innovation and hands-on learning
-- **Espressif Systems** for exceptional documentation and open-source ESP-IDF framework
-- **Maxim Integrated (Analog Devices)** for clinical-grade sensor datasheets and application notes
-- **Mongoose.js** and **MongoDB** communities for robust database libraries
-- **The Open-Source Community** (Arduino, React, Node.js) for democratizing IoT and web development
-- Our families for their unwavering support and encouragement
-
 ---
 
 <div align="center">
