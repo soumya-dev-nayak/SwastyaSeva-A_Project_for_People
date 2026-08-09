@@ -132,7 +132,35 @@ SwastyaSeva delivers:
 
 SwastyaSeva employs a **hierarchical, multi-tiered IoT architecture** with distinct layers for sensing, aggregation, and analytics:
 
-```
+### High-Level System Overview
+
+![Conceptual Diagram of Overall System](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Conceptual%20Diagram%20of%20Overall%20System.png?raw=true)
+*Figure 1: Conceptual diagram showing the end-to-end SwastyaSeva ecosystem — from wearable sensor nodes through gateway aggregation to cloud analytics and web dashboard.*
+
+### Integrated Patient Monitoring System Architecture
+
+![Integrated Patient Monitoring System](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Integrated%20patient%20monitoring%20system%20.png?raw=true)
+*Figure 2: Detailed view of the integrated patient monitoring system showing wristband, gateway, server, and dashboard integration.*
+
+### Block Diagram: Component-Level Architecture
+
+![Block Diagram of Patient Care System](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Block%20Diagram%20of%20Patient%20Care%20System%20.png?raw=true)
+*Figure 3: Block diagram of the patient care system showing signal flow through each hardware component, from sensors through microcontroller to wireless transmission.*
+
+### Detailed Multi-Tiered Architecture
+
+**Circuit Diagrams & Hardware Details**
+
+![Detailed Circuit Diagram of the Wristband System](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Detailed%20Circuit%20Diagram%20of%20the%20Wristband%20band%20system.png?raw=true)
+*Figure 4: Detailed circuit diagram of the XIAO ESP32-C3 wristband node showing I2C connections to MAX30102 (biosensor) and MAX30205 (temperature sensor), OLED display, emergency button, and vibration motor.*
+
+![5V DC Power Supply Circuit Diagram](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/5V%20DC%20Power%20Supply%20CKT%20Diagram%20.png?raw=true)
+*Figure 5: 5V regulated DC power supply circuit for the ESP32 Ward Gateway and mmWave radar modules, using transformer-rectifier topology with 7805 linear regulator.*
+
+![Table: Clinical Vital Sign Alert Thresholds](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Table-1%20Clinical%20Vital%20Sign%20Alert%20Thresholds%20.png?raw=true)
+*Figure 6: Clinical alert threshold table defining normal ranges and alert triggers for heart rate, SpO₂, body temperature, and blood pressure.*
+
+**System Architecture Diagram**
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         SwastyaSeva IoT Ecosystem                           │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -868,6 +896,11 @@ const Dashboard = () => {
 
 ### ESP32 Wristband Firmware Data Cycle
 
+**Data Processing & Firmware Algorithm**
+
+![Flow Chart of Data Processing and Actuation](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Flow%20Chart%20of%20Data%20Processing%20and%20Actuation%20.svg?raw=true)
+*Figure 7: Flowchart showing the firmware algorithm for data acquisition, processing, threshold checking, alert actuation, and wireless transmission on the XIAO ESP32-C3 wristband.*
+
 **Sampling & Transmission Flow (Every 5 Seconds):**
 ```
 1. MAX30102: Acquire 100 PPG samples @ 100 Hz = 1 second burst
@@ -1026,7 +1059,81 @@ GET /api/vitals/xyz 200 - 12.456 ms
 
 ---
 
-## Contributing
+## Web Dashboard & User Interface
+
+SwastyaSeva provides comprehensive web-based interfaces for both patients and hospital administrators. The dashboard is built with React and integrates real-time WebSocket updates for live vital sign monitoring.
+
+### Authentication & User Access
+
+![Website Login Page](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Website%20Login%20page.png?raw=true)
+*Figure 8: Secure login interface with role-based authentication. Users can access as Patient, Doctor, Nurse, or Administrator.*
+
+![Website State Choose Page](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Website%20State%20Choose%20page.png?raw=true)
+*Figure 9: Role selection interface for users with multiple access roles.*
+
+### Patient Portal
+
+![User Starting Page](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Starting%20page.png?raw=true)
+*Figure 10: Patient dashboard landing page with quick access to vital information.*
+
+![User Dashboard](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Dashboard.png?raw=true)
+*Figure 11: Real-time patient dashboard showing current vital signs with status indicators.*
+
+![User Vitals Graph](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Vitals%20Graph.png?raw=true)
+*Figure 12: 24-hour vital sign trend visualization showing heart rate, SpO₂, and temperature over time.*
+
+![Booking Appointment](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Booking%20Appointment.png?raw=true)
+*Figure 13: Appointment scheduling interface for patients to book consultations with doctors.*
+
+![Hospital Directions with Google Maps](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Hospital%20Directions%20linked%20with%20Google%20maps.png?raw=true)
+*Figure 14: Hospital location and directions integrated with Google Maps for patient navigation.*
+
+![User Profile](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Profile.png?raw=true)
+*Figure 15: Patient profile page showing personal information, medical history, and emergency contacts.*
+
+### Administrator Dashboard
+
+![Administrator Dashboard](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%20Dashboard.png?raw=true)
+*Figure 16: Comprehensive admin dashboard showing all active patients, their vital signs in real-time, and system status.*
+
+![Administrator's Doctor Management](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%E2%80%99s%20Doctor%20Management.png?raw=true)
+*Figure 17: Doctor and staff management interface for scheduling, assignments, and performance tracking.*
+
+![Administrator's Analytics of Patient Monitoring](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%E2%80%99s%20Analytics%20of%20Patient%20Monitoring.png?raw=true)
+*Figure 18: Advanced analytics dashboard showing patient monitoring trends, occupancy patterns, and predictive health metrics.*
+
+![Ward Occupancy Monitoring](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Ward%20Occupancy%20monitoring.png?raw=true)
+*Figure 19: Real-time ward occupancy visualization powered by mmWave radar, showing patient density per zone.*
+
+---
+
+## Clinical Validation & Testing
+
+### Vital Sign Accuracy Testing
+
+![Reference Range and Recorded Data](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Reference%20range%20and%20Recorded%20Data%20of%20SPO2%2C%20heart%20rate%20and%20body%20Temperature%20.png?raw=true)
+*Figure 20: Comparison of reference clinical ranges with recorded SwastyaSeva measurements for SpO₂, heart rate, and body temperature across test subjects.*
+
+![Comparison of Vitals - Different Persons](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Comparison%20of%20Vitals%20of%20Different%20persons%20with%20different%20weights%20(same%20age)%20.png?raw=true)
+*Figure 21: Comparative analysis showing vital signs of different test subjects with varying body weights and compositions.*
+
+### Performance Analysis Graphs
+
+![Heart Rate & SpO2 Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Heart%20rate%20%26%20SpO2-%20comparative%20analysis.png?raw=true)
+*Figure 22: Correlation analysis between SwastyaSeva measurements and certified medical-grade pulse oximeter readings (R² = 0.98).*
+
+![Blood Pressure Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Blood%20Pressure-%20comparative%20analysis.png?raw=true)
+*Figure 23: Blood pressure estimation accuracy validation comparing wristband-derived values with reference sphygmomanometer readings.*
+
+![Body Temperature Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Body%20Temperature-%20comparative%20analysis%20.png?raw=true)
+*Figure 24: Temperature sensor accuracy showing ±1.5°C deviation from clinical reference thermometers.*
+
+![Effect on Asthma Subjects - Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Effect%20on%20Asthma%20Subjects-%20comparative%20analysis.png?raw=true)
+*Figure 25: Specialized testing with asthma patients demonstrating system's ability to detect respiratory distress through SpO₂ drops and elevated heart rate patterns.*
+
+---
+
+## Physical Hardware Implementation
 
 We welcome contributions! Please follow these steps:
 
@@ -1044,7 +1151,107 @@ We welcome contributions! Please follow these steps:
 
 ---
 
-## Troubleshooting
+## Physical Hardware Implementation
+
+### Wristband Development & Testing
+
+![Breadboard Testing](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Bread-Board-Testing-1.jpeg?raw=true)
+*Figure 26: Breadboard prototype testing of wristband components showing ESP32-C3, MAX30102 biosensor, and MAX30205 temperature sensor interconnects.*
+
+![Veroboard Development Process](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Process.jpeg?raw=true)
+*Figure 27: Veroboard assembly process for the wristband PCB, showing component placement and soldering work.*
+
+![Veroboard Testing](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Testing.jpeg?raw=true)
+*Figure 28: Functional testing of the assembled Veroboard wristband prototype with multimeter verification and serial monitor debugging.*
+
+### Complete System Hardware
+
+![Vital Measurement Wristband](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Vital%20Measurement%20Wristband.jpg?raw=true)
+*Figure 29: Final assembled smart wristband with silicone strap, embedded XIAO ESP32-C3, MAX30102 optical biosensor, and OLED display on the wrist surface.*
+
+![Human Density Measurement System (mmWave Radar)](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Human%20Density%20Measurement%20System.jpg?raw=true)
+*Figure 30: HLK LD2410B mmWave radar module mounted for occupancy detection, showing compact form factor suitable for ceiling-mounted deployment.*
+
+![ESP32 Ward Gateway](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/ESP32%20Gateway.jpg?raw=true)
+*Figure 31: ESP32-WROOM-32 Ward Gateway with status LEDs and power supply module, designed for wall or ceiling mounting in hospital wards.*
+
+**System Integration:** The complete SwastyaSeva system integrates wristbands (Figure 29), mmWave radar occupancy sensors (Figure 30), and a centralized Ward Gateway (Figure 31) that aggregates all real-time data and transmits it to the cloud backend for dashboard visualization and alert escalation.
+
+---
+
+## Web Dashboard & User Interface
+
+SwastyaSeva provides comprehensive web-based interfaces for both patients and hospital administrators. The dashboard is built with React and integrates real-time WebSocket updates for live vital sign monitoring.
+
+### Authentication & User Access
+
+![Website Login Page](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Website%20Login%20page.png?raw=true)
+*Figure 8: Secure login interface with role-based authentication. Users can access as Patient, Doctor, Nurse, or Administrator.*
+
+![Website State Choose Page](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Website%20State%20Choose%20page.png?raw=true)
+*Figure 9: Role selection interface for users with multiple access roles.*
+
+### Patient Portal
+
+![User Starting Page](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Starting%20page.png?raw=true)
+*Figure 10: Patient dashboard landing page with quick access to vital information.*
+
+![User Dashboard](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Dashboard.png?raw=true)
+*Figure 11: Real-time patient dashboard showing current vital signs with status indicators.*
+
+![User Vitals Graph](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Vitals%20Graph.png?raw=true)
+*Figure 12: 24-hour vital sign trend visualization showing heart rate, SpO₂, and temperature over time.*
+
+![Booking Appointment](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Booking%20Appointment.png?raw=true)
+*Figure 13: Appointment scheduling interface for patients to book consultations with doctors.*
+
+![Hospital Directions with Google Maps](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Hospital%20Directions%20linked%20with%20Google%20maps.png?raw=true)
+*Figure 14: Hospital location and directions integrated with Google Maps for patient navigation.*
+
+![User Profile](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Profile.png?raw=true)
+*Figure 15: Patient profile page showing personal information, medical history, and emergency contacts.*
+
+### Administrator Dashboard
+
+![Administrator Dashboard](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%20Dashboard.png?raw=true)
+*Figure 16: Comprehensive admin dashboard showing all active patients, their vital signs in real-time, and system status.*
+
+![Administrator's Doctor Management](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%E2%80%99s%20Doctor%20Management.png?raw=true)
+*Figure 17: Doctor and staff management interface for scheduling, assignments, and performance tracking.*
+
+![Administrator's Analytics of Patient Monitoring](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%E2%80%99s%20Analytics%20of%20Patient%20Monitoring.png?raw=true)
+*Figure 18: Advanced analytics dashboard showing patient monitoring trends, occupancy patterns, and predictive health metrics.*
+
+![Ward Occupancy Monitoring](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Ward%20Occupancy%20monitoring.png?raw=true)
+*Figure 19: Real-time ward occupancy visualization powered by mmWave radar, showing patient density per zone.*
+
+---
+
+## Clinical Validation & Testing
+
+### Vital Sign Accuracy Testing
+
+![Reference Range and Recorded Data](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Reference%20range%20and%20Recorded%20Data%20of%20SPO2%2C%20heart%20rate%20and%20body%20Temperature%20.png?raw=true)
+*Figure 20: Comparison of reference clinical ranges with recorded SwastyaSeva measurements for SpO₂, heart rate, and body temperature across test subjects.*
+
+![Comparison of Vitals - Different Persons](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Comparison%20of%20Vitals%20of%20Different%20persons%20with%20different%20weights%20(same%20age)%20.png?raw=true)
+*Figure 21: Comparative analysis showing vital signs of different test subjects with varying body weights and compositions.*
+
+### Performance Analysis Graphs
+
+![Heart Rate & SpO2 Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Heart%20rate%20%26%20SpO2-%20comparative%20analysis.png?raw=true)
+*Figure 22: Correlation analysis between SwastyaSeva measurements and certified medical-grade pulse oximeter readings (R² = 0.98).*
+
+![Blood Pressure Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Blood%20Pressure-%20comparative%20analysis.png?raw=true)
+*Figure 23: Blood pressure estimation accuracy validation comparing wristband-derived values with reference sphygmomanometer readings.*
+
+![Body Temperature Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Body%20Temperature-%20comparative%20analysis%20.png?raw=true)
+*Figure 24: Temperature sensor accuracy showing ±1.5°C deviation from clinical reference thermometers.*
+
+![Effect on Asthma Subjects - Comparative Analysis](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Effect%20on%20Asthma%20Subjects-%20comparative%20analysis.png?raw=true)
+*Figure 25: Specialized testing with asthma patients demonstrating system's ability to detect respiratory distress through SpO₂ drops and elevated heart rate patterns.*
+
+---
 
 ### Backend Connection Issues
 ```bash
@@ -1251,6 +1458,30 @@ B.Tech Electronics & Communication Engineering | Silicon University (Graduating 
 - Sensor calibration and firmware tuning
 - Clinical validation and performance analysis
 - User interface feedback and refinement
+
+### Project Advisor
+**Dr. Sudhansu Mohan Biswal**  
+Associate Professor, Department of Electronics and Communication Engineering  
+Silicon University, Bhubaneswar
+
+**Dr. Sudhansu Kumar Pati**  
+Head of Department, Electronics and Communication Engineering  
+Silicon University, Bhubaneswar
+
+---
+
+## Acknowledgments
+
+We extend our heartfelt gratitude to:
+
+- **Dr. Sudhansu Mohan Biswal** for his invaluable guidance, technical expertise, and encouragement throughout the project lifecycle
+- **Dr. Sudhansu Kumar Pati** (H.O.D.) for providing laboratory facilities and resources
+- The **Silicon University ECE Department** for supporting innovation and hands-on learning
+- **Espressif Systems** for exceptional documentation and open-source ESP-IDF framework
+- **Maxim Integrated (Analog Devices)** for clinical-grade sensor datasheets and application notes
+- **Mongoose.js** and **MongoDB** communities for robust database libraries
+- **The Open-Source Community** (Arduino, React, Node.js) for democratizing IoT and web development
+- Our families for their unwavering support and encouragement
 
 ---
 
