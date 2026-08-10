@@ -617,8 +617,8 @@ B.Tech Electronics & Communication Engineering | Silicon University (Graduating 
 [GitHub: soumya-dev-nayak](https://github.com/soumya-dev-nayak)
 
 ### Contributing Team Members
-**Subhasis Chakravarty** (23BECF44) | **C S Vishal Rout** (23BECD05)  
-**Sushree Pratyusha Sahoo** (23BECA48) | **Aditi Patel** (23BECD59)
+* Subhasis Chakravarty      (23BECF44) |  C S Vishal Rout  (23BECD05)  
+* Sushree Pratyusha Sahoo   (23BECA48) |  Aditi Patel      (23BECD59)
 ---
 
 ## License
