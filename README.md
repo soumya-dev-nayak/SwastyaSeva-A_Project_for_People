@@ -284,14 +284,14 @@ npm start  # Frontend runs at http://localhost:3000
 ### Patient Portal - Authentication
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/watermark-removed-Website%20Login%20page.png" width="900"></p>
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/watermark-removed-Website%20Login%20page.png" width="700"></p>
 <p align="center">
   <em>Figure 8: Website Login Page</em><br>
   <em>Secure login interface with role-based authentication for Patient, Doctor, Nurse, and Administrator</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Website%20State%20Choose%20page.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Website%20State%20Choose%20page.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 9: Role Selection Interface</em><br>
@@ -301,7 +301,7 @@ npm start  # Frontend runs at http://localhost:3000
 ### Patient Dashboard
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Starting%20page.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Starting%20page.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 10: Patient Starting Page</em><br>
@@ -309,7 +309,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Dashboard.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Dashboard.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 11: Real-Time Patient Dashboard</em><br>
@@ -317,7 +317,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Vitals%20Graph.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Vitals%20Graph.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 12: 24-Hour Vital Sign Trends</em><br>
@@ -325,7 +325,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Booking%20Appointment.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Booking%20Appointment.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 13: Appointment Scheduling</em><br>
@@ -341,7 +341,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Profile.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/User%20Profile.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 15: Patient Profile</em><br>
@@ -351,7 +351,7 @@ npm start  # Frontend runs at http://localhost:3000
 ### Administrator Dashboard
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%20Dashboard.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%20Dashboard.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 16: Administrator Dashboard</em><br>
@@ -359,7 +359,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%E2%80%99s%20Doctor%20Management.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Administrator%E2%80%99s%20Doctor%20Management.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 17: Doctor & Staff Management</em><br>
@@ -375,7 +375,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Ward%20Occupancy%20monitoring.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Ward%20Occupancy%20monitoring.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 19: Ward Occupancy Monitoring</em><br>
@@ -389,7 +389,7 @@ npm start  # Frontend runs at http://localhost:3000
 ### Vital Sign Accuracy
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Reference%20range%20and%20Recorded%20Data%20of%20SPO2%2C%20heart%20rate%20and%20body%20Temperature%20.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Reference%20range%20and%20Recorded%20Data%20of%20SPO2%2C%20heart%20rate%20and%20body%20Temperature%20.png?raw=true" width="800">
 </p>
 <p align="center">
   <em>Figure 20: Reference Ranges vs. Recorded Data</em><br>
@@ -397,7 +397,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Comparison%20of%20Vitals%20of%20Different%20persons%20with%20different%20weights%20(same%20age)%20.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Comparison%20of%20Vitals%20of%20Different%20persons%20with%20different%20weights%20(same%20age)%20.png?raw=true" width="600">
 </p>
 <p align="center">
   <em>Figure 21: Vital Signs Comparison - Different Body Weights</em><br>
@@ -423,7 +423,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Body%20Temperature-%20comparative%20analysis%20.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Body%20Temperature-%20comparative%20analysis%20.png?raw=true" width="800">
 </p>
 <p align="center">
   <em>Figure 24: Temperature Sensor Accuracy</em><br>
@@ -458,15 +458,16 @@ npm start  # Frontend runs at http://localhost:3000
 ### Wristband Development & Assembly
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Bread-Board-Testing-1.jpeg?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Bread-Board-Testing-1.jpeg?raw=true" width="300" style="transform: rotate(270deg);">
 </p>
 <p align="center">
   <em>Figure 26: Breadboard Prototype Testing</em><br>
   <em>Component testing with ESP32-C3, MAX30102 biosensor, and MAX30205 temperature sensor</em>
 </p>
 
+
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Process.jpeg?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Process.jpeg?raw=true" width="500">
 </p>
 <p align="center">
   <em>Figure 27: Veroboard Assembly Process</em><br>
@@ -474,7 +475,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Testing.jpeg?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Testing.jpeg?raw=true" width="500">
 </p>
 <p align="center">
   <em>Figure 28: Functional Testing of Veroboard Wristband</em><br>
