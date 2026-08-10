@@ -1,4 +1,4 @@
-# SwastyaSeva — Integrated Patient Care & Hospital Management System
+# SwastyaSeva (A Project For People) — Integrated Patient Care & Hospital Management System
 
 > **A comprehensive full-stack IoT healthcare platform** combining real-time physiological monitoring via ESP32 wearable wristbands, mmWave radar-based ward occupancy tracking, Node.js/Express backend with WebSocket support, React dashboard, and MongoDB database for seamless hospital operations and patient care delivery.
 
