@@ -111,7 +111,7 @@ SwastyaSeva delivers:
 ### High-Level System Overview
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Conceptual%20Diagram%20of%20Overall%20System.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Conceptual%20Diagram%20of%20Overall%20System.png?raw=true" width="900">
 </p>
 <p align="center">
   <em>Figure 1: Conceptual Diagram of Overall System</em><br>
@@ -121,7 +121,7 @@ SwastyaSeva delivers:
 ### Integrated Patient Monitoring System
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Integrated%20patient%20monitoring%20system%20.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Integrated%20patient%20monitoring%20system%20.png?raw=true" width="900">
 </p>
 <p align="center">
   <em>Figure 2: Integrated Patient Monitoring System</em><br>
@@ -131,7 +131,7 @@ SwastyaSeva delivers:
 ### Block Diagram: Component-Level Architecture
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Block%20Diagram%20of%20Patient%20Care%20System%20.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Block%20Diagram%20of%20Patient%20Care%20System%20.png?raw=true" width="900">
 </p>
 <p align="center">
   <em>Figure 3: Block Diagram of Patient Care System</em><br>
@@ -154,7 +154,7 @@ The SwastyaSeva architecture uses a hierarchical, multi-tiered approach:
 ### Wristband Circuit Diagram
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Detailed%20Circuit%20Diagram%20of%20the%20Wristband%20band%20system.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Detailed%20Circuit%20Diagram%20of%20the%20Wristband%20band%20system.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 4: Detailed Circuit Diagram of the Wristband System</em><br>
@@ -164,7 +164,7 @@ The SwastyaSeva architecture uses a hierarchical, multi-tiered approach:
 ### Power Supply Circuit
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/5V%20DC%20Power%20Supply%20CKT%20Diagram%20.png?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/5V%20DC%20Power%20Supply%20CKT%20Diagram%20.png?raw=true" width="800">
 </p>
 <p align="center">
   <em>Figure 5: 5V DC Power Supply Circuit Diagram</em><br>
@@ -174,7 +174,7 @@ The SwastyaSeva architecture uses a hierarchical, multi-tiered approach:
 ### Clinical Alert Thresholds
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Table-1%20Clinical%20Vital%20Sign%20Alert%20Thresholds%20.png?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Table-1%20Clinical%20Vital%20Sign%20Alert%20Thresholds%20.png?raw=true" width="700">
 </p>
 <p align="center">
   <em>Figure 6: Clinical Vital Sign Alert Thresholds</em><br>
