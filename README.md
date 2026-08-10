@@ -284,8 +284,7 @@ npm start  # Frontend runs at http://localhost:3000
 ### Patient Portal - Authentication
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Website%20Login%20page.png?raw=true" width="900">
-</p>
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/watermark-removed-Website%20Login%20page.png" width="900"></p>
 <p align="center">
   <em>Figure 8: Website Login Page</em><br>
   <em>Secure login interface with role-based authentication for Patient, Doctor, Nurse, and Administrator</em>
