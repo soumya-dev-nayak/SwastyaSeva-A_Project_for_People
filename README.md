@@ -458,7 +458,7 @@ npm start  # Frontend runs at http://localhost:3000
 ### Wristband Development & Assembly
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Bread-Board-Testing-1.jpeg?raw=true" width="300" style="transform: rotate(270deg);">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Bread-Board-Testing-1.jpeg?raw=true" width="700" style="transform: rotate(270deg);">
 </p>
 <p align="center">
   <em>Figure 26: Breadboard Prototype Testing</em><br>
@@ -475,7 +475,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Testing.jpeg?raw=true" width="500">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Varrow-Board%20Dev%20Testing.jpeg?raw=true" width="800">
 </p>
 <p align="center">
   <em>Figure 28: Functional Testing of Veroboard Wristband</em><br>
@@ -485,7 +485,7 @@ npm start  # Frontend runs at http://localhost:3000
 ### Complete System Hardware
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Vital%20Measurement%20Wristband.jpg?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Vital%20Measurement%20Wristband.jpg?raw=true" width="800">
 </p>
 <p align="center">
   <em>Figure 29: Final Assembled Smart Wristband</em><br>
@@ -493,7 +493,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Human%20Density%20Measurement%20System.jpg?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Human%20Density%20Measurement%20System.jpg?raw=true" width="500">
 </p>
 <p align="center">
   <em>Figure 30: mmWave Radar Occupancy Sensor</em><br>
@@ -501,7 +501,7 @@ npm start  # Frontend runs at http://localhost:3000
 </p>
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/ESP32%20Gateway.jpg?raw=true" width="900">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/ESP32%20Gateway.jpg?raw=true" width="500">
 </p>
 <p align="center">
   <em>Figure 31: ESP32 Ward Gateway</em><br>
@@ -520,7 +520,7 @@ The complete SwastyaSeva system integrates:
 ## Firmware Algorithm & Data Processing
 
 <p align="center">
-  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Flow%20Chart%20of%20Data%20Processing%20and%20Actuation%20.svg?raw=true" width="1000">
+  <img src="https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/blob/main/pics/Flow%20Chart%20of%20Data%20Processing%20and%20Actuation%20.svg?raw=true" width="800">
 </p>
 <p align="center">
   <em>Figure 7: Firmware Algorithm Flowchart</em><br>
@@ -619,12 +619,6 @@ B.Tech Electronics & Communication Engineering | Silicon University (Graduating 
 ### Contributing Team Members
 **Subhasis Chakravarty** (23BECF44) | **C S Vishal Rout** (23BECD05)  
 **Sushree Pratyusha Sahoo** (23BECA48) | **Aditi Patel** (23BECD59)
-
-### Project Advisors
-**Dr. Sudhansu Mohan Biswal** — Associate Professor, ECE Department  
-**Dr. Sudhansu Kumar Pati** — H.O.D., ECE Department  
-Silicon University, Bhubaneswar
-
 ---
 
 ## License
