@@ -636,6 +636,6 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fi
 If this project helps you build better patient monitoring systems, please consider giving it a star ⭐
 
 **Questions? Feedback? Collaboration?**  
-[Open an Issue](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/issues) | [Email](mailto:soumya.dev.nayak@gmail.com)
+[Open an Issue](https://github.com/soumya-dev-nayak/SwastyaSeva-A_Project_for_People/issues) | [Email](mailto:soumya.dev.nayak8@gmail.com)
 
 </div>
